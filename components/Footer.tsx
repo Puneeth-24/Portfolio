@@ -11,7 +11,7 @@ export default function Footer() {
         {/* Right */}
         <div className="flex gap-6 text-sm">
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/Puneeth-24"
             target="_blank"
             className="hover:text-[var(--accent)] transition"
           >
@@ -19,7 +19,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com/in/your-profile"
+            href="https://linkedin.com/in/puneeth-jain-s-13534132a/"
             target="_blank"
             className="hover:text-[var(--accent)] transition"
           >
@@ -27,7 +27,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="mailto:puneethjain@example.com"
+            href="mailto:puneethjains2005@gmail.com"
             className="hover:text-[var(--accent)] transition"
           >
             Email
