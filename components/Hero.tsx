@@ -40,7 +40,7 @@ export default function Hero() {
             <div className="rounded-full p-[3px] bg-gradient-to-br from-blue-500 to-blue-300">
               <div className="w-[220px] h-[220px] md:w-[260px] md:h-[260px] rounded-full overflow-hidden bg-black">
                 <Image
-                  src="/profile.jpg"
+                  src="/profile.png"
                   alt="Puneeth Jain"
                   width={260}
                   height={260}
