@@ -75,7 +75,7 @@ export default function Contact() {
             </div>
 
             <a
-              href="/resume.pdf"
+              href={`${process.env.NODE_ENV === "production" ? "/Portfolio" : ""}/resume.pdf`}
               target="_blank"
               className="btn-primary inline-flex items-center gap-2 w-fit"
             >
