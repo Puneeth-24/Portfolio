@@ -30,7 +30,7 @@ export default function Hero() {
               <a href="#projects" className="btn-primary">
                 View Projects
               </a>
-              <a href="/resume.pdf" className="btn-secondary">
+		      <a href={`${process.env.NODE_ENV === "production" ? "/Portfolio" : ""}/resume.pdf`} className="btn-secondary">
                 Resume
               </a>
             </div>
