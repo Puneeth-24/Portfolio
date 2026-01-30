@@ -5,11 +5,12 @@ import { Menu, X } from "lucide-react";
 
 const links = [
   { label: "About", href: "#about" },
+  { label: "Education", href: "#education" },
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
-  { label: "Contact", href: "#contact" },
-  { label: "Experience", href: "#experience" },
   { label: "Certifications", href: "#certifications" },
+  { label: "Contact", href: "#contact" },
+  // { label: "Experience", href: "#experience" },
 ];
 
 export default function Navbar() {

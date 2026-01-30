@@ -5,7 +5,6 @@ export const skills = {
     "JavaScript",
     "React",
     "Next.js",
-    "Tailwind CSS",
   ],
   backend: [
     "Node.js",
@@ -19,15 +18,17 @@ export const skills = {
   ai_ml: [
     "Python",
     "Pandas",
+    "NumPy",
     "Scikit-learn",
-    "CNNs",
-    "NLP Basics",
+    "Matplotlib"
   ],
   tools: [
     "Git",
     "GitHub",
     "Docker",
     "Power BI",
-    "MQTT",
+    "Postman",
+    "Neovim",
+    "VS Code"
   ],
 };

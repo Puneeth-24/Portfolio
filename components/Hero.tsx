@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useReveal } from "@/hooks/useReveal";
 import profilePic from "../public/profile.png"
+import {MapPin} from "lucide-react";
 
 export default function Hero() {
   const { ref, visible } = useReveal();
@@ -21,18 +22,24 @@ export default function Hero() {
               Hi, I’m Puneeth Jain
             </h1>
 
+				<div className="flex items-center gap-2 text-sm text-muted mb-4">
+				  <MapPin size={16} className="text-blue-400" />
+				  <span>Bengaluru, Karnataka, India</span>
+				</div>
             <p className="text-muted text-lg mb-8 max-w-xl leading-relaxed">
-              Student developer building modern web applications and
-              AI-powered systems with a focus on clean design and scalability.
+				AIML student driven to make a real-world impact by building intelligent solutions.
             </p>
 
             <div className="flex gap-4">
               <a href="#projects" className="btn-primary">
                 View Projects
               </a>
-		      <a href={`${process.env.NODE_ENV === "production" ? "/Portfolio" : ""}/resume.pdf`} className="btn-secondary" >
+		      <a href={`${process.env.NODE_ENV === "production" ? "/Portfolio" : ""}/PuneethJainS_Resume.pdf`} className="btn-secondary" >
                 Resume
               </a>
+				{/* <a href="#contact" className="btn-secondary" > */}
+				{/*             Contact */}
+				{/*           </a> */}
             </div>
           </div>
 

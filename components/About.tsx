@@ -14,14 +14,11 @@ export default function About() {
         <h2 className="section-title">About Me</h2>
 
         <p className="text-muted leading-relaxed mb-4">
-          I’m a computer science student at New Horizon College of Engineering
-          with a strong interest in building scalable, real-world systems.
+I’m an AIML student at New Horizon College of Engineering with a deep interest in building intelligent, scalable, and real-world systems. 
         </p>
 
         <p className="text-muted leading-relaxed">
-          I enjoy working across the stack—from polished React interfaces to
-          backend services and applied machine learning—while continuously
-          improving my problem-solving skills.
+I enjoy working across the stack,from engineering multi-agent AI systems to developing complete full-stack projects. I’m constantly exploring new technologies, experimenting with artificial intelligence and machine learning, and sharpening my problem-solving skills to bring impactful ideas to life.
         </p>
       </div>
     </section>
