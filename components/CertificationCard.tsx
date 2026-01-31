@@ -6,6 +6,9 @@ export default function CertificationCard({
 }: {
   cert: Certification;
 }) {
+		const href = cert.link?.startsWith("certificates")
+		  ? `${process.env.NODE_ENV === "production" ? "/Portfolio" : ""}/${cert.link}`
+		  : cert.link;
   return (
     <div className="glass cert-hover  p-5 flex flex-col justify-between">
       <div>
@@ -33,9 +36,8 @@ export default function CertificationCard({
 
         {cert.link && (
           <a
-            href={cert.link}
+		 href={href}
             target="_blank"
-		    rel = "noopener noreferrer"
             className="text-sm hover:text-[var(--accent)] transition"
           >
             View
