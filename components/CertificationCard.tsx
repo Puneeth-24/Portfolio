@@ -35,6 +35,7 @@ export default function CertificationCard({
           <a
             href={cert.link}
             target="_blank"
+		    rel = "noopener noreferrer"
             className="text-sm hover:text-[var(--accent)] transition"
           >
             View
