@@ -2,7 +2,7 @@ export const skills = {
   frontend: [
     "HTML",
     "CSS",
-    "JavaScript",
+    "TypeScript",
     "React",
     "Next.js",
   ],
